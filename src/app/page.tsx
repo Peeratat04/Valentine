@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-pink-100 p-4">
-      <h1 className="text-4xl font-bold text-pink-600 text-center">Valentine's Day 💕💐</h1>
+      <h1 className="text-4xl font-bold text-pink-600 text-center">Valentine&apos;s Day 💕💐</h1>
       <Image src="/images/heart1.jpg" alt="heart" className='mt-6' />
       <button
         onClick={goToPage2}
